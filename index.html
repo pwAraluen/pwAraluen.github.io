@@ -245,17 +245,26 @@
 				
 					
 				<!-- start discord -->
-					<style>
-					.araluen-discord {
-						position: absolute;
-						right: 00px;      /* alinhado com a coluna direita */
-						top: 300px;        /* POSIÇÃO AJUSTADA PARA FICAR ABAIXO DA CAIXA */
-						z-index: 999;
-					}
-					</style>				
-					<div class="araluen-discord">
-						<iframe src="https://discord.com/widget?id=1441628347284062391&theme=dark" width="100%" height="300" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
-					</div>
+<style>
+    .araluen-discord {
+        position: absolute;
+        right: 0px; 
+        top: 300px; 
+        z-index: 999;
+        width: 300px; /* Defini uma largura para o iframe não sumir */
+    }
+</style>
+
+<div class="araluen-discord">
+    <iframe 
+        src="https://discord.com/widget?id=1441628347284062391&theme=dark" 
+        width="100%" 
+        height="300" 
+        allowtransparency="true" 
+        frameborder="0" 
+        sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts">
+    </iframe>
+</div>
 				<!-- end discord -->
 					
 
@@ -323,6 +332,7 @@
 </body>
 
 </html>
+
 
 
 
